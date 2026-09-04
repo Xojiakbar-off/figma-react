@@ -1,4 +1,3 @@
-import React from 'react';
 import './BottomCta.css';
 import Phone4 from "../../assets/Group 48.png";
 function BottomCta() {

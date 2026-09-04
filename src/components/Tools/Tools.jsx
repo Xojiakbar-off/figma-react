@@ -1,4 +1,3 @@
-import React from 'react';
 import './Tools.css';
 import PhoneTwo from "../../assets/Col (1).png";
 

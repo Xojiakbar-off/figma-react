@@ -1,4 +1,3 @@
-import React from 'react';
 import './Slider.css';
 import Woomen from "../../assets/Col (3).png";
 function Slider() {

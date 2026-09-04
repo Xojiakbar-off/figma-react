@@ -1,4 +1,3 @@
-import React from 'react';
 import './Focus.css';
 import PhoneThere from "../../assets/Col.png";
 
