@@ -72,3 +72,92 @@
 .dot-active {
   background-color: #3b82f6;
 }
+
+@media (max-width: 1024px) {
+  .slider-section {
+    padding: 80px 20px;
+    gap: 30px;
+  }
+
+  .slider-content {
+    gap: 40px;
+  }
+
+  .slider-woman-container {
+    width: 340px;
+    height: 340px;
+  }
+
+  .testimonial-text {
+    font-size: 20px;
+  }
+
+  .dot {
+    width: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-section {
+    padding: 60px 20px 60px 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .slider-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .slider-woman-container {
+    width: 260px;
+    height: 260px;
+  }
+
+  .testimonial-text {
+    font-size: 18px;
+  }
+
+  .nav-arrow {
+    display: none;
+  }
+
+  .slider-dots {
+    bottom: 20px;
+  }
+
+  .dot {
+    width: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-section {
+    padding: 40px 15px 50px 15px;
+  }
+
+  .slider-woman-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .slider-woman-container img {
+    border-radius: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .person-name {
+    font-size: 17px;
+  }
+
+  .dot {
+    width: 25px;
+  }
+}
+

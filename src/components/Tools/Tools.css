@@ -100,3 +100,62 @@
   .krug-na-fone { display: none; }
   .punkt-spiska { justify-content: center; }
 }
+
+@media (max-width: 768px) {
+  .sekciya-tools {
+    padding: 60px 20px;
+  }
+
+  .zagolovok-po-centru {
+    font-size: 32px;
+  }
+
+  .podzagolovok-po-centru {
+    margin: 0 auto 40px auto;
+  }
+
+  .tekst-sprava {
+    max-width: 100%;
+  }
+
+  .telefon-sleva {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sekciya-tools {
+    padding: 40px 15px;
+  }
+
+  .zagolovok-po-centru {
+    font-size: 24px;
+  }
+
+  .podzagolovok-po-centru {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .zagolovok-h3 {
+    font-size: 20px;
+  }
+
+  .sery-tekst {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .punkt-spiska {
+    font-size: 15px;
+  }
+
+  .sinyaya-poloska {
+    height: 18px;
+    margin-right: 10px;
+  }
+
+  .telefon-sleva {
+    max-width: 260px;
+  }
+}

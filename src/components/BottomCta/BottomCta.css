@@ -58,3 +58,58 @@
   height: auto;
   display: block;
 }
+
+@media (max-width: 1024px) {
+  .pre-footer-cta {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding: 70px 20px;
+  }
+
+  .bottom-left-side {
+    max-width: 100%;
+  }
+
+  .cta-phone-mockup {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 32px;
+  }
+
+  .cta-phone-mockup {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pre-footer-cta {
+    padding: 40px 15px;
+    gap: 30px;
+  }
+
+  .cta-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .cta-text {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .cta-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .cta-phone-mockup {
+    max-width: 260px;
+  }
+}
+

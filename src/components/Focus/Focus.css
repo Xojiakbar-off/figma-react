@@ -125,3 +125,88 @@
   background-color: pink;
 }
 
+@media (max-width: 1024px) {
+  .focus-content {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .focus-left {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .focus-phone-mockup {
+    max-width: 420px;
+  }
+
+  .focus-right {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .focus-section-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .focus-blok {
+    padding: 60px 20px;
+  }
+
+  .focus-header {
+    margin-bottom: 40px;
+  }
+
+  .focus-section-title {
+    font-size: 30px;
+  }
+
+  .focus-phone-mockup {
+    max-width: 320px;
+  }
+
+  .focus-bottom-action {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .focus-blok {
+    padding: 40px 15px;
+  }
+
+  .focus-section-title {
+    font-size: 24px;
+  }
+
+  .focus-section-subtitle {
+    font-size: 14px;
+  }
+
+  .focus-phone-mockup {
+    max-width: 260px;
+  }
+
+  .focus-item {
+    gap: 16px;
+  }
+
+  .focus-item-text h3 {
+    font-size: 17px;
+  }
+
+  .focus-item-text p {
+    font-size: 14px;
+  }
+
+  .focus-btn-primary {
+    width: 100%;
+    text-align: center;
+    padding: 12px 20px;
+  }
+}
+
+

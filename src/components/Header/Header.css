@@ -27,3 +27,62 @@
   cursor: pointer;
   margin-left: 15px;
 }
+
+@media (max-width: 768px) {
+  .shapka {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .menyu-ssylki {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .menyu-ssylki span {
+    margin: 0 8px;
+    font-size: 14px;
+  }
+
+  .pravaya-chast {
+    display: flex;
+    align-items: center;
+  }
+
+  .knopka-blue {
+    padding: 8px 16px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .shapka {
+    padding: 12px 15px;
+    gap: 10px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+  }
+
+  .menyu-ssylki span {
+    margin: 0 5px;
+    font-size: 13px;
+  }
+
+  .login-link {
+    font-size: 14px;
+  }
+
+  .knopka-blue {
+    padding: 7px 12px;
+    font-size: 13px;
+    margin-left: 8px;
+  }
+}
+

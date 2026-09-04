@@ -23,3 +23,31 @@
 .red-bg { background-color: #fee2e2; color: red; }
 .yellow-bg { background-color: #fef3c7; color: orange; }
 .blue-bg { background-color: #dbeafe; color: blue; }
+
+@media (max-width: 768px) {
+  .tri-bloka-wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 20px;
+  }
+
+  .odin-blok {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tri-bloka-wrap {
+    padding: 30px 15px;
+    gap: 25px;
+  }
+
+  .kruglaya-ikona {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+

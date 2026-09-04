@@ -49,3 +49,92 @@
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+  .glavniy-ekran {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+    gap: 40px;
+  }
+
+  .left-side {
+    max-width: 100%;
+  }
+
+  .big-title {
+    font-size: 46px;
+  }
+
+  .knopki-ryadom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .telefon-kartinka {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .telefon-kartinka img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .glavniy-ekran {
+    padding: 50px 20px;
+    gap: 30px;
+  }
+
+  .big-title {
+    font-size: 36px;
+  }
+
+  .small-text {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .telefon-kartinka {
+    max-width: 380px;
+  }
+
+  .telefon-kartinka img {
+    width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .glavniy-ekran {
+    padding: 35px 15px;
+    gap: 25px;
+  }
+
+  .big-title {
+    font-size: 28px;
+  }
+
+  .small-text {
+    font-size: 14px;
+  }
+
+  .knopki-ryadom {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .watch-video {
+    margin-left: 0;
+  }
+
+  .telefon-kartinka {
+    max-width: 280px;
+  }
+
+  .telefon-kartinka img {
+    width: 100%;
+  }
+}
+
